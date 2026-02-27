@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HUBUNGI KAMI - TECHSTART</title>
+  </head>
+  <body>
+    <header style="display: flex; gap: 20px; justify-content: space-between">
+      <strong>TwitTech</strong>
+      <nav>
+        <a href="#">HOME</a> | <a href="#">LAYANAN</a> |
+        <a href="#">KONTAK</a>
+      </nav>
+    </header>
+
+    <section>
+      <h1>Hubungi Kami</h1>
+      <p>Isi formulir di bawah dan tim kami akan segera menghubungi kamu.</p>
+
+      <form>
+        <fieldset style="color: black; border-color: black">
+          <legend>INFORMASI PRIBADI</legend>
+          <label>Nama Lengkap*</label><br />
+          <input
+            type="text"
+            placeholder="Masukkan nama lengkap Kamu"
+            required
+          /><br /><br />
+
+          <label>Email*</label><br />
+          <input
+            type="email"
+            placeholder="nama@domain.com"
+            required
+          /><br /><br />
+
+          <label>Nomor Telepon*</label><br />
+          <input type="text" placeholder="08XXXXXXXXXX" />
+        </fieldset>
+      </form>
+      <br /><br />
+      <form>
+        <fieldset style="border-color: black">
+          <legend>DETAIL PESAN</legend>
+          <label>Subjek*</label><br />
+          <select required>
+            <option value="">-- Pilih Subjek --</option>
+            <option value="Tanya">Tanya Kerja Sama</option>
+            <option value="Support">Technical Support</option></select
+          ><br /><br />
+
+          <label>Pesan*</label><br />
+          <textarea
+            rows="5"
+            cols="50"
+            placeholder="Ceritakan kebutuhan atau pertanyaan kamu..."
+            required
+          ></textarea
+          ><br /><br />
+
+          <label>Lampiran (opsional)</label><br />
+          <input type="file" /><br />
+          <small>Format: PDF, JPG, PNG, DOC. Maksimal 5MB per file.</small>
+        </fieldset>
+      </form>
+      <br /><br />
+
+      <br />
+      <br />
+      <form>
+        <fieldset style="border-color: black">
+          <legend>PREFERENSI</legend>
+          <p>Bagaimana kamu ingin kami menghubungimu?</p>
+          <input type="radio" name="kontak" value="email" /> Email
+          <input type="radio" name="kontak" value="telepon" /> Telepon
+          <input type="radio" name="kontak" value="whatsapp" /> WhatsApp
+          <br /><br />
+
+          <input type="checkbox" /> Saya ingin menerima newsletter dan update
+          terbaru dari TwitTech <br />
+          <input type="checkbox" required /> Saya menyetujui kebijakan privasi
+          dan syarat & ketentuan TwitTech * <br /><br />
+
+          <button type="submit">Kirim Pesan</button>
+          <button type="reset">Reset Form</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <br />
+    <br />
+
+    <section>
+      <legend>Daftar Klien TwitTech</legend>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>NO</th>
+            <th>NAMA KLIEN</th>
+            <th>INDUSTRI</th>
+            <th>KOTA</th>
+            <th>BERGABUNG</th>
+            <th>STATUS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>PT Belanja Nusantara</td>
+            <td>E-Commerce</td>
+            <td>Jakarta</td>
+            <td>Januari 2024</td>
+            <td>Aktif</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>CV Toko Digital</td>
+            <td>E-Commerce</td>
+            <td>Bandung</td>
+            <td>Maret 2024</td>
+            <td>Aktif</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>PT Fintech Maju</td>
+            <td>Fintech</td>
+            <td>Jakarta</td>
+            <td>Juli 2023</td>
+            <td>Aktif</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>PT Koperasi Digital Sejahtera</td>
+            <td>Fintech</td>
+            <td>Surabaya</td>
+            <td>Oktober 2023</td>
+            <td>Aktif</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>RS Sehat Selalu</td>
+            <td>Healthcare</td>
+            <td>Medan</td>
+            <td>Agustus 2022</td>
+            <td>Aktif</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Yayasan Belajar Pintar</td>
+            <td>Pendidikan</td>
+            <td>Yogyakarta</td>
+            <td>Februari 2023</td>
+            <td>Aktif</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>PT Edutech Indonesia</td>
+            <td>Pendidikan</td>
+            <td>Jakarta</td>
+            <td>Mei 2024</td>
+            <td>Tidak Aktif</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>CV Kirim Cepat</td>
+            <td>Logistik</td>
+            <td>Semarang</td>
+            <td>November 2024</td>
+            <td>Aktif</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5"><strong>Total Klien Aktif</strong></td>
+            <td><strong>7 dari 8</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+      <p><small>Data Klien TwitTech per Februari 2026</small></p>
+    </section>
+
+    <hr />
+
+    <footer>
+      <p>&copy; 2026 Twitech. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
